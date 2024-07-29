@@ -32,7 +32,7 @@ public class City {
 
     public City travelBy(int n) {
         City destination = this;
-        for (int i = 0; i <= n; i++) {
+        for (int i = 0; i < n; i++) {
             if (routes[0].city == null) {
                 break;
             } else {
