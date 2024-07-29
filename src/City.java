@@ -11,16 +11,11 @@ public class City {
 
     @Override
     public String toString() {
-        return "City{" +
-                "name='" + name + '\'' +
-                ", routes=" + Arrays.toString(routes) +
-                '}';
-    }
-    public String toPrint(){
         String res = "City{" +
-                "name='" + name;
-        for(int i=0; i< routes.length;i++){
-            res += " route ["+i+"]:{"+routes[i].city+" цена: "+Integer.toString(routes[i].cost)+" } ";
+                "name='" + name + " ' " +
+                ", routes= ";
+        for(int i=0; i< routes.length; i++){
+            res += " # "+ Integer.toString(i)+" 'to' "+routes[i].city.name+" 'cost' "+Integer.toString(routes[i].cost)+" ";
         }
         return res;
     }

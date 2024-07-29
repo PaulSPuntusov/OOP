@@ -16,9 +16,8 @@ public class Main {
         s.addRoute(rsm);
         o.addRoute(rom);
         k.addRoute(rkm);
-        //System.out.println(m.toString());
-        System.out.println(m.toPrint());
-        System.out.println(k.travelBy(7));
+        System.out.println(m.toString());
+        System.out.println(k.travelBy(9));
 
     }
 }

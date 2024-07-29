@@ -7,4 +7,5 @@ public class Route {
         this.cost = cost;
     }
 
+
 }
